@@ -29,6 +29,10 @@ Each of the 4 weeks will have certain assignments which build on top of the prev
 - [Shruti Singh](https://www.facebook.com/shruti.s.50364592)
 
 
+Join this [Telegram Group](https://t.me/joinchat/uX-Ix8qC96VjNzE1) for discussions and doubts regarding this course.
+Also join the WnCC [Telegram](https://t.me/joinchat/WHfOTR41RrD9DLL6) channel for regular updates of our events.
+
+<p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
 
 
 
