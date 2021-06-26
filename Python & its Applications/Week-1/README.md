@@ -43,7 +43,7 @@ _Note: Don’t forget to first import the module using statements like “import
 - The time library: This module provides various time-related functions. You should know about the terms epoch, seconds since epoch, local time, UTC, struct_time and also  about functions used in conversions from struct_time to seconds since epoch etc. You can head over to [this](https://realpython.com/python-time-module/) link and learn about these. 
 - The datetime library:  The datetime module supplies classes for manipulating dates and times.You should have a basic idea about creating a date and datetime objects and know about some of the methods. You can head over to [this](https://www.geeksforgeeks.org/python-datetime-module-with-examples/) link to learn about them. 
 
-Important thing to note here is you don’t really need to remember all of these functions/methods of the module. Instead you should just be familiar with the module, know about what kind of methods and constants are there in it. Whenever you are working and need to use any function/method from a module but don’t remember the exact syntax or whatever you can just head over to that module’s documentation and look from there.
+Important thing to note here is you don’t really need to remember all of these functions/methods. Instead you should just be familiar with the module, know about what kind of methods and constants are there in it. Whenever you are working and need to use any function/method from a module but don’t remember the exact syntax you can just head over to that module’s documentation.
 
 
 ## Assignment
