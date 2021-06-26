@@ -10,11 +10,11 @@ This course will help you dive deeper into some of the concepts & libraries that
 **Course Duration:**  5 weeks  
 **Time Commitment:** 8-10 hrs per week
 ### Schedule: 
-Week-1: Introduction to Python, basics of Python, from Data types and Operators to Classes                                                                    
-Week 2: Applications of Python in Data Analysis fields, will cover Numpy, Matplotlib, Seaborn and Pandas libraries                                    
-Week-3: Application of Python in Game Development, will cover PyGame library                                                            
-Week-4: Use Python to make a Search engine using Naive Bayes Classifier, covering basic NLP                                                          
-Week-5: Self study libraries related to Scientific Computing
+- [Week-1: Introduction to Python, basics of Python, from Data types and Operators to Classes](https://github.com/Karrthik-Arya/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-1)                                                                    
+- Week 2: Applications of Python in Data Analysis fields, will cover Numpy, Matplotlib, Seaborn and Pandas libraries                                    
+- Week-3: Application of Python in Game Development, will cover PyGame library                                                            
+- Week-4: Use Python to make a Search engine using Naive Bayes Classifier, covering basic NLP                                                          
+- Week-5: Self study libraries related to Scientific Computing
 
 _Material (Tutorials, References & Documentation) to be released weekly, along with weekly tasks for students to implement all that they have learned through the week's material_
 
