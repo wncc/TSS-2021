@@ -13,7 +13,7 @@ Python also accepts function recursion, which means a defined function can call 
 Recursion is a common mathematical and programming concept. It means that a function calls itself. This has the benefit of meaning that you can loop through data to reach a result.
 
 The developer should be very careful with recursion as it can be quite easy to slip into writing a function which never terminates, or one that uses excess amounts of memory or processor power. However, when written correctly recursion can be a very efficient and mathematically-elegant approach to programming.
-You can go through [this link]( to learn about recursion and see some implementations of recursion. 
+You can go through [this link](https://realpython.com/python-recursion/) to learn about recursion and see some implementations of recursion. 
 
 If you prefer to watch videos you can go through [this video](https://www.youtube.com/watch?v=zbfRgC3kukk).
 
