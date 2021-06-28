@@ -45,6 +45,7 @@ Making an object from a class is called _instantiation_, and you work with _inst
 You can visit [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Classes.ipynb) to learn about classes and objects.   
 You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
 
+By the end of this week you should  be familiar with basics of python. You should have a good enough idea about concepts like data types, loops, opertors, iterators, functions, modules and packages, classes in python. Do go through the the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
 
 ## Assignment
 
