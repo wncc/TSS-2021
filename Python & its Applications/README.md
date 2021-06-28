@@ -4,7 +4,7 @@
 For many developers picking up the basics of Python is an easy part. After they’ve mastered the basics of Python, a whole new world opens up! And suddenly it’s all about learning the libraries, frameworks, and best practices that surround Python. 
 
 ## ***WnCC & Career Cell bring to you a course on Applications of Python!***  
-This course will help you dive deeper into some of the concepts & libraries that will prove to be extremely useful in your journey of  Python. It will introduce you to some of the fundamnetal concepts of python and then help you apply them in fields like data analysis, game development, Natural Language Processing and Scientific Computing.
+This course will help you dive deeper into some of the concepts & libraries that will prove to be extremely useful in your journey of  Python. It will introduce you to some of the fundamental concepts of python and then help you apply them in fields like data analysis, game development, Natural Language Processing and Scientific Computing.
 
 **Pre-Requisites:** None. Enthusiasm for learning will be more than enough.  
 **Course Duration:**  5 weeks  
