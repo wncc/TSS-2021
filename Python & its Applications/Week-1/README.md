@@ -10,11 +10,10 @@ For the first week we will be covering some basic topics:
 * [Scope of a Variable](#scope-of-a-variable)
 * [Recursion](#recursion)
 * [Python Modules and Packages](#python-modules-and-packages)
-* [Iterators](#iterators)
 * [Some Standard libraries of python](#some-standard-libraries-of-python)
 * [Classes and Objects](#classes-and-objects)
 * [File Handling (Optional)](#file-handling-(optional))
-* [Assignment](#assignment)
+
  
 Python is the most diverse language with very varied applications in different fields such as Research, Machine Learning, Backend Web Development, Data Visualisation, Web Scraping and much more, and this is possible only because of the different libraries and frameworks available for Python.In subsequent weeks we will be covering some amazing applications of python.
 Let's get started!
@@ -110,17 +109,6 @@ Storing your functions in a separate file allows you to hide the details of your
 
 You can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Modules_and_Packages.ipynb) to learn about modules and packages.
 
-## **Iterators**
-Iterator in python is any python type that can be used with a ‘for in loop’. Python lists, tuples, dicts and sets are all examples of inbuilt iterators. These types are iterators because they implement following methods.In fact, any object that wants to be an iterator must implement following methods.
-
-__ iter__ method that is called on initialization of an iterator. This should return an object that has a next or __ next__ (in Python 3) method.
-
-next ( __ next__ in Python 3) The iterator next method should return the next value for the iterable. When an iterator is used with a ‘for in’ loop, the for loop implicitly calls next() on the iterator object. This method should raise a StopIteration to signal the end of the iteration.
-
-Check out this [Notebook](https://github.com/abhipaiangle/learners-space/blob/master/Python/Week%204/Notebook2.ipynb) to learn about Python Iterators.
-
-To read more about Iterators refer [this](https://www.geeksforgeeks.org/iterators-in-python/)
-
 ## Some Standard libraries of python
 
 In python, a collection of predefined modules and packages is called a library. There are a lot of useful and interesting libraries available in python. Using such libraries often helps in reducing the effort and saves time in a number of places. Here, we will learn about some of the standard library modules:
@@ -156,14 +144,5 @@ Hence, in Python, a file operation takes place in the following order:
 Head over to this [Notebook](https://github.com/wncc/learners-space/blob/master/Python/Week%205/File_Handling/Week5-1.ipynb) to learn about Python functions for fucntions for file handling.
 
 To read more about File Handling refer [this](https://www.geeksforgeeks.org/file-handling-python/)
-
-
-## Assignment
-
-You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/thevaliantthird/Python-TSS/blob/main/Week1/AssignmentForSnippetCompletion.ipynb).
-
-**Optional Assignment** : Think Completing the Snippet was a piece of cake for you? Learn about the Goodstein Function from [here](https://en.wikipedia.org/wiki/Goodstein%27s_theorem#Goodstein_sequences), then try to implement a function which calculates the the kth term of G(m). 
-
-We will upload the solutions to both Assignments after this week!
 
 
