@@ -147,7 +147,7 @@ By the end of this week you should  be familiar with the basics of python. You s
 
 ## Assignment
 
-You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/thevaliantthird/Python-TSS/blob/main/Week1/AssignmentForSnippetCompletion.ipynb).
+You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/AssignmentForSnippetCompletion.ipynb).
 
 **Optional Assignment** : Think Completing the Snippet was a piece of cake for you? Learn about the Goodstein Function from [here](https://en.wikipedia.org/wiki/Goodstein%27s_theorem#Goodstein_sequences), then try to implement a function which calculates the the kth term of G(m). 
 
