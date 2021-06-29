@@ -13,6 +13,8 @@ We hope you've understood the implementation of basic widgets of flutter. So are
 
 ![UI1](https://github.com/ishit16/TSS-2021/blob/main/Intro%20to%20App%20Development/Week-1/UI1.PNG) 
 
+![UI2](https://github.com/ishit16/TSS-2021/blob/main/Intro%20to%20App%20Development/Week-1/UI2.PNG)
+
 You are free to use your own creativity, you can also find some beautiful UIs online.
 
 -----
