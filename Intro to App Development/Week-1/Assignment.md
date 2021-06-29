@@ -28,7 +28,7 @@ You are free to use your own creativity, you can also find some beautiful UIs on
 
 -----
 
-In case you face any difficulty or you're stuck somewhere, you may refer flutter documentation, search for your error on stackoverflow, use the [Telegram]("https://t.me/joinchat/dFVpJNj0dos3NjQ9") group for discussion.
+In case you face any difficulty or you're stuck somewhere, you may refer flutter documentation, search for your error on stackoverflow, use the [Telegram](https://t.me/joinchat/dFVpJNj0dos3NjQ9) group for discussion.
 
 Stay tuned for more interesting tutorials on usage of **Flutter Developer Packages** coming next week!
 
