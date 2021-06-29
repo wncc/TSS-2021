@@ -35,6 +35,15 @@ Google Colab is a platform provided by Google, which runs a Jupyter notebook in 
 The setup is platform agnostic i.e. all you need is a browser. The recommended way to get started is first logging in to Google. Sign in > Head to the home page for Google Colab [here](https://colab.research.google.com/notebooks/intro.ipynb#recent=true) > click on New Notebook.
 From this point, everything is basically the same as a Jupyter notebook.
 
+### Instructions on downloading and using notebooks
+
+1. Open the respective `.ipynb` file on GitHub
+2. In the upper right corner, there are several buttons and icons including the ones shown below. Click on the Raw Button.
+       Raw | Blame
+      --- | ---
+      
+3. The python notebook opens as raw text in browser. Right click->Save as OR just press CTRL + S. Save the notebook, open it using Jupyter Notebook you just installed and start learning! 
+
 ## **Introduction to Data Types and Data Structures in Python**
 Once you have set up the environment for writing your code, we now begin with coding in Python. Let's get started.
 
