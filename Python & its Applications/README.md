@@ -25,7 +25,7 @@ Each of the 5 weeks will have an assignment. The first week will have a small, o
 ### Moderators:
 - [Karrthik Arya](https://www.facebook.com/karrthik.arya/)
 - [Shubh Kumar](https://www.facebook.com/profile.php?id=100057361624828)
-- [Vrinda Goyal](https://www.facebook.com/vrinda.goel.7967/)
+- [Vrinda Goel](https://www.facebook.com/vrinda.goel.7967/)
 
 Join this [Telegram Group](https://t.me/joinchat/Mxgy4ev1NcxmMTQ1) for discussions and doubts regarding this course.  
 Also join the WnCC [Telegram](https://t.me/joinchat/WHfOTR41RrD9DLL6) channel for regular updates of our events.
