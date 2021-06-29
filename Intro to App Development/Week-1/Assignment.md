@@ -3,7 +3,7 @@
 We hope you've understood the implementation of basic widgets of flutter. So are you ready to make your own flutter app using the things you learned this week ? 
 
 ## Tasks:
-*Create a repository with the name: RollNumber_IntroToAppDev(Example: 200040066_IntroToAppDev).
+* Create a repository with the name: RollNumber_IntroToAppDev(Example: 200040066_IntroToAppDev).
 * Make a **Simple Calculator** using Flutter. Your calculator should have the following functionalities
     1. Addition and Subtraction of any two numbers.
     2. Multiplication and Division of any two numbers.
