@@ -1,6 +1,6 @@
 # **Welcome to Week 1 of Learner Space's Python!**
 
-For all those looking to learn python from scratch , you can begin with the material given below, while those of you who are already familiar with python and are just looking to revise can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Python_Review.ipynb).
+For all those looking to learn python from scratch , you can begin with the material given below, while those of you who are already familiar with python and are just looking to revise can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Python_Review.ipynb).  
 For the first week we will be covering some basic topics:
 * [Getting Started](#getting-started)
 * [Introduction to Data Types and Data Structures in Python](#introduction-to-data-types-and-data-structures-in-python)
