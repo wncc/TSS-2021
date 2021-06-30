@@ -142,7 +142,7 @@ You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI
 
 This brings us to the end of this week's material. By now you should  be familiar with the basics of python. You should have a good enough idea about concepts like data types, loops, operators, iterators, functions, modules and packages, classes in python. Do go through the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
 
-## **File Handling (Optional)**
+## File Handling (Optional)
 Since we have covered a good number of topics , we are keeping File Handling as optional.Those who are interested in learning this can go through the article below.
 
 Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory (e.g. hard disk). Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off), we use files for future use of the data by permanently storing them. When we want to read from or write to a file, we need to open it first. When we are done, it needs to be closed so that the resources that are tied with the file are freed.
