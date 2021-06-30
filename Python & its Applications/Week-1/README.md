@@ -142,6 +142,20 @@ You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI
 
 This brings us to the end of this week's material. By now you should  be familiar with the basics of python. You should have a good enough idea about concepts like data types, loops, operators, iterators, functions, modules and packages, classes in python. Do go through the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
 
+## **File Handling (Optional)**
+Since we have covered a good number of topics , we are keeping File Handling as optional.Those who are interested in learning this can go through the article below.
+
+Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory (e.g. hard disk). Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off), we use files for future use of the data by permanently storing them. When we want to read from or write to a file, we need to open it first. When we are done, it needs to be closed so that the resources that are tied with the file are freed.
+
+Hence, in Python, a file operation takes place in the following order:
+
+* Open a file
+* Read or write (perform operation)
+* Close the file
+Head over to this [Notebook](https://github.com/wncc/learners-space/blob/master/Python/Week%205/File_Handling/Week5-1.ipynb) to learn about Python functions for fucntions for file handling.
+
+To read more about File Handling refer [this](https://www.geeksforgeeks.org/file-handling-python/)
+
 ## Assignment
 
 You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/AssignmentForSnippetCompletion.ipynb).
