@@ -10,7 +10,6 @@ For the first week we will be covering some basic topics:
 * [Scope of Variables](#scope-of-variables)
 * [Recursion](#recursion)
 * [Python Modules and Packages](#modules-and-packages)
-* [Iterators](#iterators)
 * [Some Standard libraries of python](#some-standard-libraries-of-python)
 * [Classes and Objects](#classes-and-objects)
 * [File Handling (Optional)](#file-handling-(optional))
@@ -118,17 +117,6 @@ One advantage of functions is the way they separate blocks of code from your mai
 Storing your functions in a separate file allows you to hide the details of your program’s code and focus on its higher-level logic. It also allows you to re-use functions in many different programs. When you store your functions in separate files, you can share those files with other programmers without having to share your entire program. Knowing how to import functions also allows you to use libraries of functions that other programmers have written.
 
 You can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Modules_and_Packages.ipynb) to learn about modules and packages.
-
-## **Iterators**
-Iterator in python is any python type that can be used with a ‘for in loop’. Python lists, tuples, dicts and sets are all examples of inbuilt iterators. These types are iterators because they implement following methods.In fact, any object that wants to be an iterator must implement following methods.
-
-__ iter__ method that is called on initialization of an iterator. This should return an object that has a next or __ next__ (in Python 3) method.
-
-next ( __ next__ in Python 3) The iterator next method should return the next value for the iterable. When an iterator is used with a ‘for in’ loop, the for loop implicitly calls next() on the iterator object. This method should raise a StopIteration to signal the end of the iteration.
-
-Check out this [Notebook](https://github.com/abhipaiangle/learners-space/blob/master/Python/Week%204/Notebook2.ipynb) to learn about Python Iterators.
-
-To read more about Iterators refer [this](https://www.geeksforgeeks.org/iterators-in-python/)
 
 ## Some Standard libraries of python
 
