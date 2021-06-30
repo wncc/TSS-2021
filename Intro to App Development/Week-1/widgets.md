@@ -3,7 +3,7 @@
 What is a widget?
 You might have seen and used the widgets on Android and iOS.
 They are tiles which hold content and can update themselves.
-Flutter takes the concept of widgets to the next level.
+Flutter expands on the concept of widgets.
 
 In Flutter, *everything is a widget.*
 The buttons, checkboxes, sliders, textboxes etc. are all are widgets.
@@ -21,6 +21,7 @@ If you have already installed Flutter, jump directly to step 3.
 >1. You might also require JDK 8, which can be obtained from [here](https://adoptopenjdk.net/?variant=openjdk8&>jvmVariant=hotspot).
 >2. It is also recommened to set the `JAVA_HOME` and `JDK_HOME` environment variables.
 >3. A physical device can be very helpful for testing your apps if you have less than 16 GB of RAM.
+>4. Alternatively, you can also test your apps in the web browser.
 
 ## A Simple App
 Now it is time to create a simple app.
@@ -40,20 +41,22 @@ We reiterate the important observations from the tutorial:
 In this section, we will explore more widgets.
 You can find all the UI widgets provided by Flutter in the [widget catalog](https://flutter.dev/docs/development/ui/widgets/material).
 
-### <b>Buttons</b>
+### <b>[Button](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)</b>
 Flutter has two types of buttons: `ElevatedButton` and `TextButton`.
 Both have a similar functionality and only differ in the visual style.
 Follow the short tutorial on creating an `ElevatedButton` [here](https://api.flutter.dev/flutter/material/ElevatedButton-class.html).
+
+You can set the `onPressed` property to any function you wish.
 
 Here are some important observations:
 1. If the `onPressed` property is set to `null`, the button is disabled.
 2. If the `onPressed` property is set to `() {}`, the button is enabled. Here `() {}` represents an empty function, which does nothing.
 
-### <b>Container</b>
+### <b>[Container](https://api.flutter.dev/flutter/widgets/Container-class.html)</b>
 Container is a convenience widget that combines common painting, positioning and sizing of widgets.
 It is often useful while building complex UI.
 
-Run the command on the command prompt (for Windows) or Terminal (on GNU/Linux and macOS):
+Run the command below on the command prompt (for Windows) or Terminal (on GNU/Linux and macOS):
 ```
 git clone https://github.com/vedk/flutter_container_example.git
 ```
@@ -64,3 +67,46 @@ You can read more about it from [here](https://api.flutter.dev/flutter/widgets/C
 The functions which you compose are construtors of the class with the same name.**
 
 ### <b>Checkbox</b>
+You are probably familiar with a checkbox.
+But in Flutter the checkbox along with many other widgets is *special.*
+**In Flutter the checkbox does not update its UI state (i.e. checked/unchecked) by itself when it is tapped.**
+This brings us to one of the most important principles in Flutter:
+> **In Flutter the UI is a function of state, i.e. UI = f(state)**.
+> Thus when the state changes, ***you must*** call the `setState()` function.
+
+Once this is understood, clone the following repo to see the above principle in action.
+```
+git clone https://github.com/vedk/flutter_checkbox_example.git
+```
+Focus on the lines 41-46 in lib/main.dart
+```dart
+onChanged: (bool? value) {
+            setState(() {
+              // if you comment out the statement below, the checkbox will not
+              // change state
+              isChecked = value!;
+            });
+```
+See how when the state changes on tapping the checkbox, the `setState()` function is called which changes the UI state of the checkbox.
+Flutter maintains a disctinion between the UI state and internal state of the widgets.
+`setState()` is reponsible for redrawing the widgets to match the afore mentioned two states by calling the `build()` function. You have to make sure that you call `setState()` whenever the UI must be updated.
+
+### <b>[BottomNavigationBar](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)</b>
+A widget that's displayed at the bottom of an app for selecting among a small number of views, typically between three and five.
+Instagram has one.
+
+See [this link](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html) and follow the given code.
+You should be able to follow along.
+Notice how the `setState()` function is used.
+
+### <b>[TextField](https://api.flutter.dev/flutter/material/TextField-class.html)</b>
+A text field lets the user enter text, either with hardware keyboard or with an onscreen keyboard.
+Read the description and the code from [here](https://api.flutter.dev/flutter/material/TextField-class.html).
+
+Some important points:
+1. The [`TextEditingController`](https://api.flutter.dev/flutter/widgets/TextEditingController-class.html) will take care to change the UI state of the `TextField` as you type text.
+2. The `dispose()` method is similar to what is called desctructor in C++.
+
+## Where next?
+The widgets covered here are just a fraction of what are available.
+Checkout the [widget catalog](https://flutter.dev/docs/development/ui/widgets/material) for more widgets.
