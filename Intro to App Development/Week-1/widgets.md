@@ -7,7 +7,7 @@ Flutter expands on the concept of widgets.
 
 In Flutter, *everything is a widget.*
 The buttons, checkboxes, sliders, textboxes etc. are all are widgets.
-Moveover, even layout is a widget.
+Moreover, even layout is a widget.
 You can also group two or more widgets together to create another widget.
 
 ## Installing Android Studio and Flutter
@@ -44,7 +44,7 @@ You can find all the UI widgets provided by Flutter in the [widget catalog](http
 ### <b>[Button](https://api.flutter.dev/flutter/material/ElevatedButton-class.html)</b>
 Flutter has two types of buttons: `ElevatedButton` and `TextButton`.
 Both have a similar functionality and only differ in the visual style.
-Follow the short tutorial on creating an `ElevatedButton` [here](https://api.flutter.dev/flutter/material/ElevatedButton-class.html).
+Follow the short tutorial on creating an `ElevatedButton` [here](https://api.flutter.dev/flutter/material/ElevatedButton-class.html). Don't forget to press the "Run" button.
 
 You can set the `onPressed` property to any function you wish.
 
@@ -89,7 +89,7 @@ onChanged: (bool? value) {
 ```
 See how when the state changes on tapping the checkbox, the `setState()` function is called which changes the UI state of the checkbox.
 Flutter maintains a disctinion between the UI state and internal state of the widgets.
-`setState()` is reponsible for redrawing the widgets to match the afore mentioned two states by calling the `build()` function. You have to make sure that you call `setState()` whenever the UI must be updated.
+`setState()` is responsible for redrawing the widgets to match the afore mentioned two states by calling the `build()` function. You have to make sure that you call `setState()` whenever the UI must be updated.
 
 ### <b>[BottomNavigationBar](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)</b>
 A widget that's displayed at the bottom of an app for selecting among a small number of views, typically between three and five.
