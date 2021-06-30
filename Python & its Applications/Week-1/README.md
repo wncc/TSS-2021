@@ -140,8 +140,6 @@ Making an object from a class is called _instantiation_, and you work with _inst
 You can visit [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Classes.ipynb) to learn about classes and objects.   
 You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
 
-This brings us to the end of this week's material. By now you should  be familiar with the basics of python. You should have a good enough idea about concepts like data types, loops, operators, iterators, functions, modules and packages, classes in python. Do go through the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
-
 ## *File Handling (Optional)*
 Since we have covered a good number of topics , we are keeping File Handling as optional.Those who are interested in learning this can go through the article below.
 
@@ -155,6 +153,9 @@ Hence, in Python, a file operation takes place in the following order:
 Head over to this [Notebook](https://github.com/wncc/learners-space/blob/master/Python/Week%205/File_Handling/Week5-1.ipynb) to learn about Python functions for fucntions for file handling.
 
 To read more about File Handling refer [this](https://www.geeksforgeeks.org/file-handling-python/)
+
+
+This brings us to the end of this week's material. By now you should  be familiar with the basics of python. You should have a good enough idea about concepts like data types, loops, operators, iterators, functions, modules and packages, classes in python. Do go through the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
 
 ## Assignment
 
