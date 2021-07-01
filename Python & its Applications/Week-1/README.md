@@ -1,6 +1,8 @@
 # **Welcome to Week 1 of Learner Space's Python!**
 
+
 For all those looking to learn python from scratch , you can begin with the material given below, while those of you who are already familiar with python and are just looking to revise can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Python_Review.ipynb).  
+
 For the first week we will be covering some basic topics:
 * [Getting Started](#getting-started)
 * [Introduction to Data Types and Data Structures in Python](#introduction-to-data-types-and-data-structures-in-python)
@@ -34,6 +36,7 @@ Google Colab is a platform provided by Google, which runs a Jupyter notebook in 
 The setup is platform agnostic i.e. all you need is a browser. The recommended way to get started is first logging in to Google. Sign in > Head to the home page for Google Colab [here](https://colab.research.google.com/notebooks/intro.ipynb#recent=true) > click on New Notebook.
 From this point, everything is basically the same as a Jupyter notebook.
 
+
 ### Instructions on downloading and using notebooks
 
 1. Open the respective `.ipynb` file on GitHub
@@ -42,6 +45,7 @@ From this point, everything is basically the same as a Jupyter notebook.
       --- | ---
       
 3. The python notebook opens as raw text in browser. Right click->Save as OR just press CTRL + S. Save the notebook, open it using Jupyter Notebook you just installed and start learning! 
+
 
 ## **Introduction to Data Types and Data Structures in Python**
 Once you have set up the environment for writing your code, we now begin with coding in Python. Let's get started.
@@ -93,12 +97,13 @@ Make sure you have covered the following topics -
 * continue statement
 * If-else condition ( normal, nested, if-elif)
 
+
 ## Functions
 Functions are the named blocks of code that are designed to do one specific job. When you want to perform a particular task that you’ve defined in a function, you call the name of that function responsible for it. If you need to perform that task multiple times throughout your program, you don't need to type all the code for the same task again and again; you just call the function dedicated to handling that task, and the call tells Python to run the code inside the function. You’ll find that using functions makes your programs easier to write, read, test, and fix.
 You can see [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Functions.ipynb) which covers some details about the functions.  
 If you prefer to watch videos to learn you can head over to [this link](https://www.youtube.com/watch?v=1OuRhD7FmTA&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm&index=12).
 
-## Scope of Variables
+## **Scope of a Variable**
 The location where we can find a variable and also access it if required is called the scope of a variable. Variables that are defined inside a function body have a local scope, and those defined outside have a global scope. This means that local variables can be accessed only inside the function in which they are declared, whereas global variables can be accessed throughout the program body by all functions.
 
 If you want to learn more about functions and scope you can visit [this](https://automatetheboringstuff.com/2e/chapter3/) link.
@@ -112,11 +117,22 @@ You can go through [this link](https://realpython.com/python-recursion/) to lear
 
 If you prefer to watch videos you can go through [this video](https://www.youtube.com/watch?v=zbfRgC3kukk).
 
-## Modules and Packages
+## **Python Modules and Packages**
 One advantage of functions is the way they separate blocks of code from your main program. By using descriptive names for your functions, your main program will be much easier to follow. You can go a step further by storing your functions in a separate file called a module and then importing that module into your main program.
 Storing your functions in a separate file allows you to hide the details of your program’s code and focus on its higher-level logic. It also allows you to re-use functions in many different programs. When you store your functions in separate files, you can share those files with other programmers without having to share your entire program. Knowing how to import functions also allows you to use libraries of functions that other programmers have written.
 
 You can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Modules_and_Packages.ipynb) to learn about modules and packages.
+
+## **Iterators**
+Iterator in python is any python type that can be used with a ‘for in loop’. Python lists, tuples, dicts and sets are all examples of inbuilt iterators. These types are iterators because they implement following methods.In fact, any object that wants to be an iterator must implement following methods.
+
+__ iter__ method that is called on initialization of an iterator. This should return an object that has a next or __ next__ (in Python 3) method.
+
+next ( __ next__ in Python 3) The iterator next method should return the next value for the iterable. When an iterator is used with a ‘for in’ loop, the for loop implicitly calls next() on the iterator object. This method should raise a StopIteration to signal the end of the iteration.
+
+Check out this [Notebook](https://github.com/abhipaiangle/learners-space/blob/master/Python/Week%204/Notebook2.ipynb) to learn about Python Iterators.
+
+To read more about Iterators refer [this](https://www.geeksforgeeks.org/iterators-in-python/)
 
 ## Some Standard libraries of python
 
@@ -140,6 +156,7 @@ Making an object from a class is called _instantiation_, and you work with _inst
 You can visit [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Classes.ipynb) to learn about classes and objects.   
 You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
 
+
 ## *File Handling (Optional)*
 Since we have covered a good number of topics , we are keeping File Handling as optional.Those who are interested in learning this can go through the article below.
 
@@ -157,12 +174,9 @@ To read more about File Handling refer [this](https://www.geeksforgeeks.org/file
 
 This brings us to the end of this week's material. By now you should  be familiar with the basics of python. You should have a good enough idea about concepts like data types, loops, operators, iterators, functions, modules and packages, classes in python. Do go through the assignment after finishing the reading material. It will give you a chance to apply these concepts and practice your skills. Next week we will learn to use python in the field of data analysis. 
 
-## Assignment
-
 You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/AssignmentForSnippetCompletion.ipynb).
 
-**Optional Assignment** : Think Completing the Snippet was a piece of cake for you? Learn about the Goodstein Function from [here](https://en.wikipedia.org/wiki/Goodstein%27s_theorem#Goodstein_sequences), then try to implement a function which calculates the the kth term of G(m). 
 
-We will upload the solutions to both Assignments after this week!
+
 
 
