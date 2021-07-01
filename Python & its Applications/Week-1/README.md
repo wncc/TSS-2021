@@ -143,13 +143,18 @@ Making an object from a class is called _instantiation_, and you work with _inst
 You can visit [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Classes.ipynb) to learn about classes and objects.   
 You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
 
+## **File Handling (Optional)**
+Since we have covered a good number of topics , we are keeping File Handling as optional.Those who are interested in learning this can go through the article below.
 
-## Assignment
+Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory (e.g. hard disk). Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off), we use files for future use of the data by permanently storing them. When we want to read from or write to a file, we need to open it first. When we are done, it needs to be closed so that the resources that are tied with the file are freed.
 
-You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/thevaliantthird/Python-TSS/blob/main/Week1/AssignmentForSnippetCompletion.ipynb).
+Hence, in Python, a file operation takes place in the following order:
 
-**Optional Assignment** : Think Completing the Snippet was a piece of cake for you? Learn about the Goodstein Function from [here](https://en.wikipedia.org/wiki/Goodstein%27s_theorem#Goodstein_sequences), then try to implement a function which calculates the the kth term of G(m). 
+* Open a file
+* Read or write (perform operation)
+* Close the file
+Head over to this [Notebook](https://github.com/wncc/learners-space/blob/master/Python/Week%205/File_Handling/Week5-1.ipynb) to learn about Python functions for fucntions for file handling.
 
-We will upload the solutions to both Assignments after this week!
+To read more about File Handling refer [this](https://www.geeksforgeeks.org/file-handling-python/)
 
 
