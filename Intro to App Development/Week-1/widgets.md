@@ -19,7 +19,7 @@ If you have already installed Flutter, jump directly to step 3.
 
 >**NOTE:**
 >1. You might also require JDK 8, which can be obtained from [here](https://adoptopenjdk.net/?variant=openjdk8&>jvmVariant=hotspot).
->2. It is also recommened to set the `JAVA_HOME` and `JDK_HOME` environment variables.
+>2. It is also recommend to set the `JAVA_HOME` and `JDK_HOME` environment variables.
 >3. A physical device can be very helpful for testing your apps if you have less than 16 GB of RAM.
 >4. Alternatively, you can also test your apps in the web browser.
 
@@ -33,7 +33,7 @@ We reiterate the important observations from the tutorial:
 1. The `main()` method uses arrow (`=>`) notation. Use arrow notation for one-line functions or methods.
 2. The app extends `StatelessWidget`, which makes the app itself a widget. *In Flutter, almost everything is a widget, including alignment, padding, and layout.*
 3. The `Scaffold` widget, from the Material library, provides a default app bar, and a body property that holds the widget tree for the home screen. The widget subtree can be quite complex.
-4. A widget’s main job is to provide a `build()` method that describes how to display the widget in terms of other, lower level widgets.
+4. A widget's main job is to provide a `build()` method that describes how to display the widget in terms of other, lower level widgets.
 5. The body for this example consists of a `Center` widget containing a `Text` child widget. The `Center` widget aligns its widget subtree to the center of the screen.
 
 
@@ -64,7 +64,21 @@ This repo contains the complete code for making a container and even rotating it
 You can read more about it from [here](https://api.flutter.dev/flutter/widgets/Container-class.html).
 
 **Get a feel for how things work in Flutter. You keep composing functions, i.e. f(g(x)), to build the UI.
-The functions which you compose are construtors of the class with the same name.**
+The functions which you compose are constructors of the class with the same name.**
+
+### <b>[Row](https://api.flutter.dev/flutter/widgets/Row-class.html) and [Column](https://api.flutter.dev/flutter/widgets/Column-class.html)</b>
+`Row` is a widget that displays its children in a horizontal array.
+`Column` is a widget that displays its children in a vertical array.
+These widgets are often used for layout.
+Note that these widgets do not have scrolling capabilities if the contents overflow.
+
+Clone the following project and to get an understanding of how to use `Row` or `Column`.
+```
+git clone https://github.com/vedk/flutter_column_example
+```
+
+Often, the contents will require the use of an `Expanded` widget for proper spacing.
+Read [this](https://api.flutter.dev/flutter/widgets/Row-class.html) entry on `Row` to understand the use of `Expanded`.
 
 ### <b>Checkbox</b>
 You are probably familiar with a checkbox.
@@ -88,8 +102,17 @@ onChanged: (bool? value) {
             });
 ```
 See how when the state changes on tapping the checkbox, the `setState()` function is called which changes the UI state of the checkbox.
-Flutter maintains a disctinion between the UI state and internal state of the widgets.
+Flutter maintains a distinction between the UI state and internal state of the widgets.
 `setState()` is responsible for redrawing the widgets to match the afore mentioned two states by calling the `build()` function. You have to make sure that you call `setState()` whenever the UI must be updated.
+
+### <b>A slight detour...</b>
+You might have observed that in many of our programs, the classes extends (i.e. inherit) `StatelessWidget`, `StatefulWidget` and `State<T>`.
+
+A stateless widget never changes. It is never redrawn due to any user interaction. `Icon`, `IconButton` and `Text` are examples of stateless widgets. Stateless widgets subclass `StatelessWidget`.
+
+A stateful widget is dynamic: for example, it can change its appearance in response to events triggered by user interactions or when it receives data. `Checkbox`, `Radio`, `Slider`, `InkWell`, `Form`, and `TextField` are examples of stateful widgets. Stateful widgets subclass `StatefulWidget`.
+
+A widget's state is stored in a subclass of `State<T>` object, separating the widget's state from its appearance. The state consists of values that can change, like a slider's current value or whether a checkbox is checked. When the widget's state changes, the state object calls setState(), telling the framework to redraw the widget.
 
 ### <b>[BottomNavigationBar](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)</b>
 A widget that's displayed at the bottom of an app for selecting among a small number of views, typically between three and five.
@@ -105,7 +128,7 @@ Read the description and the code from [here](https://api.flutter.dev/flutter/ma
 
 Some important points:
 1. The [`TextEditingController`](https://api.flutter.dev/flutter/widgets/TextEditingController-class.html) will take care to change the UI state of the `TextField` as you type text.
-2. The `dispose()` method is similar to what is called desctructor in C++.
+2. The `dispose()` method is similar to what is called destructor in C++.
 
 ## Where next?
 The widgets covered here are just a fraction of what are available.
