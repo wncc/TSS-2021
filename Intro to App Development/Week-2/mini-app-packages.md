@@ -11,7 +11,8 @@ The pubspec file specifies dependencies that the project requires, such as parti
 
 ## **Using Package in an App**
 In this mini-app, we will use the *english_words* package, to create listview.
-A good tutorial to create a listview using the external package **[Building a ListView in Flutter](https://medium.com/flutter-community/flutter-building-a-listview-in-flutter-3ea0c56dd496)**. Try to understand the code and write it rather than copy/pasting it.
+A good tutorial to create a listview using the external package **[Building a ListView in Flutter](https://medium.com/flutter-community/flutter-building-a-listview-in-flutter-3ea0c56dd496)**(recommended). Try to understand the code and write it rather than copy/pasting it.
 This as also a tutorial to use *english_words* to create an infiite list view - [ProgrammerSought](https://www.programmersought.com/article/2539538887/).
+It is also available on the Get Started Section of Flutter Documentation - [Create an Infinite Scrolling ListView](https://flutter.dev/docs/get-started/codelab#step-4-create-an-infinite-scrolling-listview).
 
 If you want to know more details about list views, [this](https://pusher.com/tutorials/flutter-listviews/) is a good place to visit.
