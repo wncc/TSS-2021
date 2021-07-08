@@ -21,3 +21,6 @@ It will ask you to run `flutter pub get`.
 Click the "pub get" link on the pop up.
 Android Studio will download and setup the packages.
 You can then run the app.
+
+## Where next
+You can read more about Flutter packages in detail from [here](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
