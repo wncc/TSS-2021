@@ -15,3 +15,9 @@ If you would like to try the app first, run the following command.
 ```
 git clone https://github.com/vedk/flutter_package_try.git
 ```
+Then open the project in Android Studio.
+You will see a pop up on the right bottom corner.
+It will ask you to run `flutter pub get`.
+Click the "pub get" link on the pop up.
+Android Studio will download and setup the packages.
+You can then run the app.
