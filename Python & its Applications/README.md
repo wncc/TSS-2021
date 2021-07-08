@@ -4,7 +4,7 @@
 For many developers picking up the basics of Python is an easy part. After they’ve mastered the basics of Python, a whole new world opens up! And suddenly it’s all about learning the libraries, frameworks, and best practices that surround Python. 
 
 ## ***WnCC & Career Cell bring to you a course on Applications of Python!***  
-This course will help you dive deeper into some of the concepts & libraries that will prove to be extremely useful in your journey of  Python. It will introduce you to some of the fundamnetal concepts of python and then help you apply them in fields like data analysis, game development, Natural Language Processing and Scientific Computing.
+This course will help you dive deeper into some of the concepts & libraries that will prove to be extremely useful in your journey of  Python. It will introduce you to some of the fundamental concepts of python and then help you apply them in fields like data analysis, game development, Natural Language Processing and Scientific Computing.
 
 **Pre-Requisites:** None. Enthusiasm for learning will be more than enough.  
 **Course Duration:**  5 weeks  
@@ -25,6 +25,9 @@ Each of the 5 weeks will have an assignment. The first week will have a small, o
 ### Moderators:
 - [Karrthik Arya](https://www.facebook.com/karrthik.arya/)
 - [Shubh Kumar](https://www.facebook.com/profile.php?id=100057361624828)
-- [Vrinda Goyal](https://www.facebook.com/vrinda.goel.7967/)
+- [Vrinda Goel](https://www.facebook.com/vrinda.goel.7967/)
+
+Join this [Telegram Group](https://telegram.me/joinchat/hOdnuYfjv983OGU1) for discussions and doubts regarding this course.  
+Also join the WnCC [Telegram](https://telegram.me/joinchat/WHfOTR41RrD9DLL6) channel for regular updates of our events.
 
 <p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
