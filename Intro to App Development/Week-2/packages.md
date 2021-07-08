@@ -7,5 +7,11 @@ In other words you will use external packages.
 In a Flutter project, you can use external packages by editing the `pubspec.yaml` file.
 You can use any package in your app which is listed on https://pub.dev/
 
+## Tutorial
 Follow the tutorial from [this codelab](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1#0).
 The associated video for the codelab is [here](https://www.youtube.com/watch?v=Z6KZ3cTGBWw).
+
+If you would like to try the app first, run the following command.
+```
+git clone https://github.com/vedk/flutter_package_try.git
+```
