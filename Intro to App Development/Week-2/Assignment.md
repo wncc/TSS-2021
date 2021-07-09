@@ -1,0 +1,6 @@
+# Assignment for Week 2
+
+So for this week to showcase ***Encapsulation*** and other properties we will be developing a Quiz App. Now you might be thinking how can ***Encapsulation*** in a quiz app.
+Well if a user is using your app and has access to the ***main.dart*** file he can certainly change the answers and question numbers too, which we dont want. So in this assignment 
+you will have three files along with ***main.dart***, One will contain the a ***class to store the question and answer for one particular question objects*** and the other one will have a 
+***class for storing all the questions***. The Interface and a demonstration video is shown below.
