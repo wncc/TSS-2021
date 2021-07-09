@@ -143,13 +143,15 @@ The basic idea behind Paired Switching is to select two stocks which are negativ
 
 **(OPTIONAL)** 
 
-Implementing a Trading Strategy based on Naive Bayes Model!
+**1)** Implementing a Trading Strategy based on predictions of a Naive Bayes Model!
 
 Get to know about the Naive Bayes' Model from [here](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf) and [here](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) (You might want to know about Bernoulli's Naive Bayes Classifier in particular).
 Get to know about various indicators used to judge where the market/prices are going. [RSI](https://blog.quantinsti.com/rsi-indicator/)(Relative Strength Index) and [Stoch](https://blog.quantinsti.com/stochastic-oscillator/)(Stochastic Oscillator) are great indicators, you may or may not stop just at them.
 
 Next you can use RSI, Stoch (and other Indicators of your choice) and implement a Bernoulli Naive Bayes Model to predict next day's returns and then use that to trade.
 
-You should also use matplotlib/Seaborn to plot these results as well!
+You should also use matplotlib/Seaborn to plot these results.
 
-**HINT** : Try to get to know about pre-defined functions which can help you, from sklearn library!
+**HINT** : Try and get to know about pre-defined functions from sklearn library which help you!
+
+**2)** Implementing a Strategy combining [Mean Reversion](https://www.investopedia.com/terms/m/meanreversion.asp) and Momentum into one.
