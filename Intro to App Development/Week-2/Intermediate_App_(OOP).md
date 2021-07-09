@@ -4,7 +4,7 @@ In case you're not familiar with the **Object Oriented Programming** method whil
 and its readability was being reduced.
 You might have writen your code in a single file and the functions that you defined were being called in separate places. Such a method of programming is known as **Procedural** programming.
 
-To make our code more organised we try to modularise small chunks of our code using **Abstractions**. 
+To make our code more organised we try to modularize small chunks of our code using **Abstractions**. 
 
 For example while making a flutter App if you need to use Buttons at various places and you want that each button should be of different colour, it would be really 
 cool if you could just define a custom class for your button with properties such as Button color, Text size, font etc. Now you just need to use your own Button class in your main file.
