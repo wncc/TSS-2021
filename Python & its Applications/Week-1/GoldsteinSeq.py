@@ -1,3 +1,5 @@
+#Point the conciseness and compactness with which you can define functions in Python!
+
 n = int(input('What would you want n to be?'))
 m = int(input('What would you want m to be?'))
 
