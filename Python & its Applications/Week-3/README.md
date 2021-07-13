@@ -10,11 +10,11 @@ will help you understand how professional games are written.
 
 To learn about the pygame library we will be taking a more practical approach. We will be making an *Alien invasion game* (somewhat like *asteroids*) and while doing that explore various aspects of the Pygame library. We will not just learn about the functions in Pygame but learn about some general concepts of GameDev as well like sprites, events, collisions which will be used in quite a similar way with whatever language you use. You will also get to learn about some good programming practices such as **refactoring**. This is how we are going to be procedding with making this game:
 
-- [Setup Pygame](# Setting up Pygame)
-- [Initial Setup](# Starting the Game Project)
-- [Piloting the ship](# Making the ship function)
-- [Creating the aliens](# Creating Aliens)
-- [Making the aliens function](# Making the Aliens Function)
+- [Setup Pygame](#Setting-up-Pygame)
+- [Initial Setup](#Starting-the-Game-Project)
+- [Piloting the ship](#Making-the-ship-function)
+- [Creating the aliens](#Creating-Aliens)
+- [Making the aliens function](#Making-the-Aliens-Function)
 
 
 Note the game will span a number of different files, so make a new folder called alien_invasion. Be sure to save all files for the game to this folder so *import* statements will work correctly.
