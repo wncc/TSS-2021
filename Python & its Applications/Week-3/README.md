@@ -8,7 +8,9 @@ tedious, difficult coding and focus on the higher-level logic of game dynamics.
 Making games is an ideal way to have fun while learning a language. It’s deeply satisfying to watch others play a game you wrote, and writing a simple game 
 will help you understand how professional games are written.  
 
-To learn about the pygame library we will be taking a more practical approach. We will be making an *Alien invasion game* (somewhat like *asteroids*) and while doing that explore various aspects of the Pygame library. We will not just learn about the functions in Pygame but learn about some general concepts of GameDev as well like sprites, events, collisions which will be used in quite a similar way with whatever language you use. You will also get to learn about some good programming practices such as **refactoring**. This is how we are going to be procedding with making this game:
+To learn about the pygame library we will be taking a more practical approach. We will be making an *Alien invasion game* (somewhat like *asteroids*) and while doing that explore various aspects of the Pygame library. We will not just learn about the functions in Pygame but learn about some general concepts of GameDev as well like sprites, events, collisions which will be used in quite a similar way with whatever language you use. 
+
+You will also get to learn about some good programming practices such as **refactoring**. This is how we are going to be procedding with making this game:
 
 - [Setup Pygame](#Setting-up-Pygame)
 - [Initial Setup](#Starting-the-Game-Project)
