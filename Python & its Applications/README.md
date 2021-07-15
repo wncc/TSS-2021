@@ -12,7 +12,7 @@ This course will help you dive deeper into some of the concepts & libraries that
 ### Schedule: 
 - [Week-1: Introduction to Python, basics of Python, from Data types and Operators to Classes](https://github.com/Karrthik-Arya/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-1)                                                                    
 - [Week 2: Applications of Python in Data Analysis fields, will cover Numpy, Matplotlib, Seaborn and Pandas libraries](https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-2)                                    
-- Week-3: Application of Python in Game Development, will cover PyGame library                                                            
+- [Week-3: Application of Python in Game Development, will cover PyGame library](https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-3)                                                            
 - Week-4: Use Python to make a Search engine using Naive Bayes Classifier, covering basic NLP                                                          
 - Week-5: Self study libraries related to Scientific Computing
 
