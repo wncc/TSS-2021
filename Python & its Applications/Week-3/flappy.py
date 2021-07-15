@@ -14,19 +14,20 @@ floor_x_pos = 0
 
 #Load the necessary images
 
-bg_surface = pygame.image.load('assets/background-day.png')
+bg_surface = pygame.image.load('flappy_assets/background.png')
 bg_surface = pygame.transform.scale2x(bg_surface)
 
-floor_surface = pygame.image.load('assets/base.png')
+floor_surface = pygame.image.load('flappy_assets/floor.png')
 floor_surface = pygame.transform.scale2x(floor_surface)
 
-bird_surface = pygame.transform.scale2x(pygame.image.load('assets/bluebird-midflap.png'))
+bird_surface = pygame.transform.scale2x(pygame.image.load('flappy_assets/bluebird.png'))
 bird_rect = bird_surface.get_rect(center = (100,512))
 
-pipe_surface = pygame.image.load('assets/pipe-green.png')
+pipe_surface = pygame.image.load('flappy_assets/pipe.png')
 pipe_surface = pygame.transform.scale2x(pipe_surface)
 
-
+game_over_surface = pygame.transform.scale2x(pygame.image.load('flappy_assets/message.png'))
+game_over_rect = game_over_surface.get_rect(center = (288,512))
 
 
 pipe_list = []
@@ -36,8 +37,7 @@ SPAWNPIPE = pygame.USEREVENT
 pygame.time.set_timer(SPAWNPIPE,1200)
 pipe_height = [400,600,800]
 
-game_over_surface = pygame.transform.scale2x(pygame.image.load('assets/message.png'))
-game_over_rect = game_over_surface.get_rect(center = (288,512))
+
 
 
 
