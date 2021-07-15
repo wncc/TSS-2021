@@ -15,6 +15,7 @@ You will also get to learn about some good programming practices such as **refac
 - [Piloting the ship](#Making-the-ship-function)
 - [Creating the aliens](#Creating-Aliens)
 - [Making the aliens function](#Making-the-Aliens-Function)
+- [Assignment](#Assignment)
 
 
 Note the game will span a number of different files, so make a new folder called alien_invasion. Be sure to save all files for the game to this folder so *import* statements will work correctly.  Do not run the notebooks, save the files as per instructions and thereafter test the code.
@@ -59,3 +60,27 @@ To learn more about collisions you can go through [this](https://www.youtube.com
 With this we now have a somewhat completely working game. You look into the [alien_invasion folder](https://github.com/Karrthik-Arya/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-3/alien_invasion) for the complete game files that we just made. 
 
 If you'd like to explore more there are a lot many modifications you can do. You can add sounds to the game (about which you can learn [here](https://www.geeksforgeeks.org/python-playing-audio-file-in-pygame/)) as well. You can add **Play**, **Restart** etc. buttons to the game (You will have to take input from the mouse using MOUSEBUTTONDOWN event and check the position of the point where the user clicked). You can add a scoreboard( each time an alien is shot you will have to update the score). These are some possible modifications but you can do a lot more. You can definitely look into the [documentation](https://www.pygame.org/docs/), its written pretty well and through that you can learn about any function in Pygame.  
+
+## Assignment
+This week you have a choice of doing either of the 2 assignments. The snake game is a bit easier than the flappy bird. However the flappy bird looks a bit more interesting in the end. Depending on the time you have available you can do any of them.
+### Snake Game
+In this, you will be making the classic snake game which you must have played sometime in your life. You will be making the snake, apple out of rectangles in pygame. A basic outline of the code along with some initializations has been given in the file *snake.py*. You are supposed to fill these functions:
+- **check_for_events()** : This should contain the main for loop (listening for events). You hsould have code for responding when someone quits or presses the arrow keys. Also make sure that snake cannot reverse direction abruptly i.e. if its moving right it cannot change directly change its direction to left.
+- **create_food()**: This should generate new position for the food if its eaten by the snake. You can use [randrange() function](https://docs.python.org/3/library/random.html#random.randrange) from the random module. 
+- **update_snake()**: This function should make the snake move in the appropriate direction. Think how the snake's body and head moves when you change the direction. Here you are also supposed to code for responding if the snake eats the food. You also have to code for detetcing if it collides with the walls or with itself(the **game_over** function will be used). However you cannot directly use the functions for detecting collisions since we are not making specific sprites or surfaces for snake or food.
+- **show_score()**: It simply shows the score at the given pos according to the color, font and size. 
+- **game_over()**: Its the function to call in the end. It should write game over on the screen, show your score, wait for 3 seconds and then exit
+After completing these functions, you will have to complete the main *while* loop which will involve calls to these functions. 
+
+The descriptions of functions as well as the way variables have been intialized can give hints to how you are supposed to proceed. However these are just to guide you, in the end its all upto you. If you think any other method works use that approach.
+
+After finshing your game should look somewhat like this:
+
+
+### Flappy Bird
+For those of you looking to make a bit more advanced game can work on this. You will be making the classic flappy bird game. The basic outline of the code along with some initializations has been provided in the file [flappy.py](). The images given in [flappy_assets] folder have been used. You will haave to complete the functions given in the file and some part of the main while loop. Appropriate descriptions of what the functions are supposed to do have been given in the file.
+After finshing your game should somewhat look like this:
+
+
+
+
