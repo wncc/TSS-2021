@@ -180,8 +180,9 @@ You should now be able to complete the snippet of code designed to read a partic
 
 **Optional Assignment** : Think Completing the Snippet was a piece of cake for you? Learn about the Goodstein Function from [here](https://en.wikipedia.org/wiki/Goodstein%27s_theorem#Goodstein_sequences), then try to implement a function which calculates the the kth term of G(m). 
 
-We will upload the solutions to both Assignments after this week!
+Solution to the first assignment can be found [here](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/AssignmentForSnippetCompletion(SOLUTION).ipynb).
 
+The Solution to the Optional Assignment is quite long and complex, hence we thought it would be better to give you links to a better implementation, which you may look at [here](https://wgunderwood.github.io/2020/03/02/goodstein-calculator.html).
 
 
 
