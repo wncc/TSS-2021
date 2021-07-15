@@ -49,6 +49,8 @@ To learn more about events in Pygame you can go through [this](https://www.youtu
 
 Next thing to do would be to give the ship the ability to shoot bullets. To do this you will learn about the concept of *sprites*. A sprite is a two dimensional image that is part of the larger graphical scene. Typically a sprite will be some kind of object in the scene that will be interacted with. You can learn about that in [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/Bullets.ipynb).
 
+You can vist [this link](https://www.pythoninformer.com/python-libraries/pygame/sprite-class/) if you would like to know more about the sprite class and you can always go to the [documentation](https://www.pygame.org/docs/ref/sprite.html). 
+
 ## Creating Aliens
 Creating aliens is going to be quite similar to creating the ship. However, the difference is that while there was only a single ship, there is a fleet of aliens. So we will be creating rows of aliens that will move sideways as well as downward. You can learn about this in [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/Creating_Aliens.ipynb).
 
