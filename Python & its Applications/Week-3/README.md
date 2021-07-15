@@ -64,22 +64,30 @@ If you'd like to explore more there are a lot many modifications you can do. You
 ## Assignment
 This week you have a choice of doing either of the 2 assignments. The snake game is a bit easier than the flappy bird. However the flappy bird looks a bit more interesting in the end. Depending on the time you have available you can do any of them.
 ### Snake Game
-In this, you will be making the classic snake game which you must have played sometime in your life. You will be making the snake, apple out of rectangles in pygame. A basic outline of the code along with some initializations has been given in the file *snake.py*. You are supposed to fill these functions:
+In this, you will be making the classic snake game which you must have played sometime in your life. You will be making the snake, apple out of rectangles in pygame. A basic outline of the code along with some initializations has been given in the file [snake.py](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/snake.py). You are supposed to fill these functions:
 - **check_for_events()** : This should contain the main for loop (listening for events). You hsould have code for responding when someone quits or presses the arrow keys. Also make sure that snake cannot reverse direction abruptly i.e. if its moving right it cannot change directly change its direction to left.
 - **create_food()**: This should generate new position for the food if its eaten by the snake. You can use [randrange() function](https://docs.python.org/3/library/random.html#random.randrange) from the random module. 
 - **update_snake()**: This function should make the snake move in the appropriate direction. Think how the snake's body and head moves when you change the direction. Here you are also supposed to code for responding if the snake eats the food. You also have to code for detetcing if it collides with the walls or with itself(the **game_over** function will be used). However you cannot directly use the functions for detecting collisions since we are not making specific sprites or surfaces for snake or food.
 - **show_score()**: It simply shows the score at the given pos according to the color, font and size. 
-- **game_over()**: Its the function to call in the end. It should write game over on the screen, show your score, wait for 3 seconds and then exit
+- **update_screen()**: In the above functions we have only specified or updated the positions of the various objects/surfaces. Here we draw them on the screen.
+- **game_over()**: Its the function to call in the end. It should write game over on the screen, show your score(Use **show_score()** function, wait for 3 seconds and then exit
 After completing these functions, you will have to complete the main *while* loop which will involve calls to these functions. 
 
 The descriptions of functions as well as the way variables have been intialized can give hints to how you are supposed to proceed. However these are just to guide you, in the end its all upto you. If you think any other method works use that approach.
 
 After finshing your game should look somewhat like this:
 
+<p align = 'center'>
+<img src = 'https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/snake.gif'>
+</p>
 
 ### Flappy Bird
-For those of you looking to make a bit more advanced game can work on this. You will be making the classic flappy bird game. The basic outline of the code along with some initializations has been provided in the file [flappy.py](). The images given in [flappy_assets] folder have been used. You will haave to complete the functions given in the file and some part of the main while loop. Appropriate descriptions of what the functions are supposed to do have been given in the file.
+For those of you looking to make a bit more advanced game can work on this. You will be making the classic flappy bird game. The basic outline of the code along with some initializations has been provided in the file [flappy.py](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/flappy.py). The images given in [flappy_assets](https://github.com/Karrthik-Arya/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-3/flappy_assets) folder have been used. You will haave to complete the functions given in the file and some part of the main while loop. Appropriate descriptions of what the functions are supposed to do have been given in the file.
+
 After finshing your game should somewhat look like this:
+<p align='center'>
+<img src = 'https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/flappy.gif'>
+ </p>
 
 
 
