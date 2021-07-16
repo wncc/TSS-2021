@@ -9,13 +9,28 @@ Have you ever wanted to build beautiful android/iOS applications? You can learn 
 **Course Duration:**  4 weeks  
 **Time Commitment:** 12-14 hrs per week 
 ### Schedule: 
-Week 1: Basics of Dart Programing, Object Oriented Programing, Some Basic Widgets, Assignment
+**Week 1: Basics of Dart Programing, Object Oriented Programing, Some Basic Widgets, Assignment**
+1. [Basic git and GitHub](./Week-1/git_intro.md)
+2. [Introduction to OOP and Dart](./Week-1/basics.md)
+3. [Widgets in Flutter](./Week-1/widgets.md)
+4. [More Examples of Widgets](./Week-1/Demonstration_of_Widgets.md)
+5. [Example App](./Week-1/Example_App.md)
+6. [**Compulsory** Assignment for Week 1](./Week-1/Assignment.md)
 
-Week 2: Flutter Dev Packages, Some more widgets, demonstration of OOP ideas, Assignments
+**Week 2: Flutter Dev Packages, Some more widgets, demonstration of OOP ideas, Assignments**
+1. [Flutter Developer Packages](https://github.com/wncc/TSS-2021/blob/main/Intro%20to%20App%20Development/Week-2/packages.md)
+2. [Intermediate App(OOP)](https://github.com/wncc/TSS-2021/blob/main/Intro%20to%20App%20Development/Week-2/Intermediate_App_(OOP).md)
+3. [Assignment](https://github.com/wncc/TSS-2021/blob/main/Intro%20to%20App%20Development/Week-2/Assignment.md)
 
 Week 3: Introduction to API through an app, Introduction to Firebase, Assignments
+1. [Introduction to APIs](./Week-3/apis.md)
+2. [Demonstration of APIs](./Week-3/Demonstration_API.md)
+3. [Introduction to Firebase](./Week-3/intro_to_firebase.md)
+4. [Assignment 3 (Optional)](./Week-3/Assignment.md)
 
 Week 4: Firebase
+
+*To be released*
 
 Final Assignment 
 
