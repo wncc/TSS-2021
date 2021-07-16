@@ -1,8 +1,8 @@
 # Assignment for Week-3
 
+We are almost done with Week 3 of this course and here is your final step for completing week 3. This weeks Assignment is optional.
 
-
-So for this week we learn about APIs so now we will be creating a ***Weather App*** using the Api offered by https://openweathermap.org/current (You will need to create an account for the api key) . Feel free to Explore the Api doc
+So for this week we learn about APIs so now we will be creating a ***Weather App*** using the Api offered by https://openweathermap.org/current (You will need to create an account for the api key) . Feel free to Explore the Api documentation.
 and get to know more. You will be getting a json file as a product from the api and you will need a jsondecoder. You can read more about them from the flutter documentation. 
 
 For location you will need to include a relevant flutter package:
@@ -21,12 +21,12 @@ For the App it should have 2 features and 3 screens.
 
 
 The snapshots of the structure and the given screens is given below-
- - ![image](https://user-images.githubusercontent.com/73156496/125969241-0f3ad8c9-00a8-4353-8f0b-2f1a38bde7ce.png)
- - ![image](https://user-images.githubusercontent.com/73156496/125969288-904c0e95-fbff-48db-a075-94f3afa36c2e.png)
- - ![image](https://user-images.githubusercontent.com/73156496/125969340-96002be9-7bc8-4300-9142-578c60863ba2.png)
+ - ![image](https://user-images.githubusercontent.com/73156496/125969241-0f3ad8c9-00a8-4353-8f0b-2f1a38bde7ce.png) ![image](https://user-images.githubusercontent.com/73156496/125969288-904c0e95-fbff-48db-a075-94f3afa36c2e.png) ![image](https://user-images.githubusercontent.com/73156496/125969340-96002be9-7bc8-4300-9142-578c60863ba2.png)
 
 These set of permissions need to be set in the AndroidManifest.xml file (android/app/src/main/AndroidManifest.xml)
 ![image](https://user-images.githubusercontent.com/73156496/125969659-b4702f8e-9ed0-47c6-ab38-06630c02bd02.png)
+
+You are free to add more Features and feel free to explore the API too (THere are many more features like hourly broadcast) 
 
 
 
