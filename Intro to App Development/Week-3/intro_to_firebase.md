@@ -1,4 +1,4 @@
-#**Introduction to Firebase**
+# **Introduction to Firebase**
 Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety of tools and services to help them develop quality apps, grow their user base, and earn profit. It is built on Google’s infrastructure.
 It is categorized as a NoSQL database program, which stores data in JSON-like documents.
 Developers relying on this platform get access to services that they would have to develop themselves, and it enables them to lay focus on delivering robust application experiences.
