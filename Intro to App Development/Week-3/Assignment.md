@@ -21,7 +21,9 @@ For the App it should have 2 features and 3 screens.
 
 
 The snapshots of the structure and the given screens is given below-
- - ![image](https://user-images.githubusercontent.com/73156496/125969241-0f3ad8c9-00a8-4353-8f0b-2f1a38bde7ce.png) ![image](https://user-images.githubusercontent.com/73156496/125969288-904c0e95-fbff-48db-a075-94f3afa36c2e.png) ![image](https://user-images.githubusercontent.com/73156496/125969340-96002be9-7bc8-4300-9142-578c60863ba2.png)
+- ![image](https://user-images.githubusercontent.com/73156496/125972648-40b1ede6-b97e-4feb-998f-896b8417467b.png)![image](https://user-images.githubusercontent.com/73156496/125972674-b4b190a5-20a9-4323-95bb-fa03dc9c0951.png)![image](https://user-images.githubusercontent.com/73156496/125972702-92cdb347-8866-467c-92b1-2c6d28cd1b8d.png)
+
+
 
 These set of permissions need to be set in the AndroidManifest.xml file (android/app/src/main/AndroidManifest.xml)
 ![image](https://user-images.githubusercontent.com/73156496/125969659-b4702f8e-9ed0-47c6-ab38-06630c02bd02.png)
