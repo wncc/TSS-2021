@@ -26,7 +26,15 @@ The snapshots of the structure and the given screens is given below-
 These set of permissions need to be set in the AndroidManifest.xml file (android/app/src/main/AndroidManifest.xml)
 ![image](https://user-images.githubusercontent.com/73156496/125969659-b4702f8e-9ed0-47c6-ab38-06630c02bd02.png)
 
-You are free to add more Features and feel free to explore the API too (THere are many more features like hourly broadcast) 
+You are free to add more Features and feel free to explore the API too (THere are many more features like hourly broadcast).
+
+## Assignment Submission
+
+You have to make a screen recording showing the functionality of the app and upload all the files of the app and the video in a repo. Then Submit the lnk of the repo in the google form link provided.
+
+Deadline for this assignment is 22nd July 2021 11:59 pm (tentative).
+
+
 
 
 
