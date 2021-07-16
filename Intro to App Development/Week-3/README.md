@@ -15,3 +15,5 @@ We shall cover the following topics in Week 3:
 2. [Demonstration of APIs](Demonstration_API.md)
 3. [Introduction to Firebase](intro_to_firebase.md)
 4. [Assignment 3 (Optional)](Assignment.md)
+
+<p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
