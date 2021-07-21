@@ -21,16 +21,16 @@ Now, we could begin looking into building Search Engines. We will start by looki
 
 **Term Frequency (TF)** is a frequency of term (t) on document (d). The formula looks like this :
 
-![images/0.png]
+![images/0.png](https://github.com/thevaliantthird/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-4/images/0.png)
 
 Beside of that, we can use a log with bases of 10 to calculate the TF, so the number becomes smaller, and the computation process becomes faster. Also, make sure to add one on it because we don’t want log 0 exist.
 
-![images/1.png]
+![images/1.png](https://github.com/thevaliantthird/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-4/images/1.png)
 
 
 Then, there is the **Inverse Document Frequency (IDF)**. This formula will be used for calculating the rarity of the word in all documents. It will be used as weights for the TF. If a word is frequent, then the IDF will be smaller. In opposite, if the word is less frequent, then the IDF will be larger. The formula looks like this :
 
-![images/2.png]
+![images/2.png](https://github.com/thevaliantthird/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-4/images/2.png)
 
 Recall the TF-IDF, we can see how does it affect the value on each cell. It will remove all the words that are frequently shown in documents but at the same time not important, such as and, or, even, actually, etc. Based on that, we use this as the value on each cell on our matrix.
 
@@ -52,7 +52,7 @@ These refinements also introduce two hyper-parameters to adjust the impact of th
 
 Bringing this all together, BM25 is calculated as:
 
-![images/3.png]
+![images/3.png](https://github.com/thevaliantthird/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-4/images/3.png)
 
 #Assignment
 
