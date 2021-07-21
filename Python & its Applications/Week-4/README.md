@@ -17,15 +17,15 @@ We will start by learning more about Web Scraping, as building Search Engines in
 
 Now, we could begin looking into building Search Engines. We will start by looking into a basic search engine built in Python :
 
-### Term Frequency - Inverse Document Frequency based Search
+## Term Frequency - Inverse Document Frequency based Search
 
 You can head to [this](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-4/FirstEngine.ipynb) notebook and explore what is TF-IDF and how its used for building a basic search engine. Over-the-hood, we are simply getting statistical measures of matchings of words, getting these results as vectors and then considering the cosine-similarity between them as a measure of optimality in searching.
 
-### Towards greater Sophistication : BM25
+## Towards greater Sophistication : BM25
 
 TF-IDF used to be the most used Search Algorithm by a lot of big firms like Udemy, Slack etc. as recently as 2016, but after that BM25 took over. Head to [this notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-4/BM25.ipynb) and explore the algorithm in action for yourself! You will need a certain file containing the Data which shall be parsed, you may find it [here](https://drive.google.com/file/d/1pJFPa5772JiXWxZ9pGpwNbO6D0BBCEXZ/view?usp=sharing). Make sure you download it and upload it to your kernel while playing around with the notebook.
 
-## Assignment
+# Assignment
 
 For this Week's Assignment, you shall build test Google's own Algorithm : **PageRank** (The 'Page' doesn't stand for webpages, but rather for its author and Google's co-founder, Larry Page!)
 
@@ -37,7 +37,7 @@ But this definition isn’t perfect: if someone wants to make their page seem mo
 
 For that reason, In PageRank’s algorithm, a website is more important if it is linked to by other important websites, and links from less important websites have their links weighted less. This definition seems a bit circular, but it turns out that there are multiple strategies for calculating these rankings.
 
-### Random Surfer Model
+## Random Surfer Model
 
 One way to think about PageRank is with the random surfer model, which considers the behavior of a hypothetical surfer on the internet who clicks on links at random. Consider the corpus of web pages below, where an arrow between two pages indicates a link from one page to another.
 
@@ -61,7 +61,7 @@ To ensure we can always get to somewhere else in the corpus of web pages, we’l
 
 Our random surfer now starts by choosing a page at random, and then, for each additional sample we’d like to generate, chooses a link from the current page at random with probability `d`, and chooses any page at random with probability `1 - d`. If we keep track of how many times each page has shown up as a sample, we can treat the proportion of states that were on a given page as its PageRank.
 
-### Iterative Algorithm
+## Iterative Algorithm
 
 We can also define a page’s PageRank using a recursive mathematical expression. Let `PR(p)` be the PageRank of a given page p: the probability that a random surfer ends up on that page. How do we define `PR(p)`? Well, we know there are two ways that a random surfer could end up on the page:
 
@@ -79,3 +79,11 @@ This gives us the following definition for the PageRank for a page `p`.
 In this formula, `d` is the damping factor, `N` is the total number of pages in the corpus, `i` ranges over all pages that link to page `p`, and `NumLinks(i)` is the number of links present on page `i`.
 
 How would we go about calculating PageRank values for each page, then? We can do so via iteration: start by assuming the PageRank of every page is `1 / N`(i.e., equally likely to be on any page). Then, use the above formula to calculate new PageRank values for each page, based on the previous PageRank values. If we keep repeating this process, calculating a new set of PageRank values for each page based on the previous set of PageRank values, eventually the PageRank values will converge (i.e., not change by more than a small threshold with each iteration).
+
+Phewwww....That was a lot!
+
+Now you can head over to [this notebook](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-4/PageRank.ipynb) . You will need to download the three folders named `corpus0`, `corpus1` & `corpus2`, and store them in the same directory from where you run this notebook(/upload them to the kernel where you're running it!), in order to see your code in action.
+
+### Optional Assignment
+
+Try to integrate PageRank and either of BM25/TF-IDF to construct a fully functional Search Engine, which works by making use of Web Scraping and not already collected Data. 
