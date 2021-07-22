@@ -29,3 +29,10 @@ It shows how to access data from a Flutter app.
 ## Authentication
 You can also use Firebase to authenticate and verify users with their Gmail, Apple ID, email etc.
 Follow the tutorial [here](https://medium.com/firebase-tips-tricks/how-to-use-firebase-authentication-in-flutter-50e8b81cb29f).
+
+# Assignment for Week-4
+Here is you last and final (phew!) assignment for this course: [Week-4 Assignment](Assignment.md).
+
+We hope that you enjoyed this course!
+
+<center>Made with :heart: by WnCC</center>
