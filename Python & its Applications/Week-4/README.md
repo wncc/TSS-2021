@@ -100,3 +100,7 @@ Now you can head over to [this notebook](https://github.com/wncc/TSS-2021/blob/m
 ### Optional Assignment
 
 Try to integrate PageRank and either of BM25/TF-IDF to construct a fully functional Search Engine, which works by making use of Web Scraping and not already collected Data. 
+
+###### The material on TF-IDF has been adapted from [here](https://towardsdatascience.com/create-a-simple-search-engine-using-python-412587619ff5).
+###### The material on BM25 has been adapted from [here](https://towardsdatascience.com/how-to-build-a-search-engine-9f8ffa405eac).
+###### The material on PageRank has been adapted from CS50.
