@@ -4,15 +4,28 @@ For this week we will be seeing how to build basic(and slightly advanced!) Searc
 
 We will start by learning more about Web Scraping, as building Search Engines involves extensive use of these tools.
 
+We will be covering BeautifulSoup in considerable depth (a bit beyond what's required to build Search Engines), as why to stop oneself from learning, when you have found some motivation to do so!
 
+## BeautifulSoup
 
+Beautiful Soup is a Python package for parsing HTML and XML documents (including having malformed markup, i.e. non-closed tags, so named after tag soup). It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for [web scraping](https://en.wikipedia.org/wiki/Web_scraping).
+All one needs to know to use this really cool library are the bare basics of python (or any programming language for that matter) and the ability to recognize patterns in an HMTL code. Proficiency in CSS, HTML and web development is not a must.
 
+### Installation
 
+To install Beautifulsoup on Windows, Linux, or any operating system, one would need **pip** package.Refer [this](https://www.geeksforgeeks.org/beautifulsoup-installation-python/) article for installation.
 
+### How to Use Beautifulsoup?
 
+The best way to understand the use of this library would be to follow an example .Head over to this [website](https://www.geeksforgeeks.org/how-to-scrape-websites-with-beautifulsoup-and-python/) which demonstrates how to use it.
 
+#### Other useful Resources 
 
+Here are the links of some other useful resources on Beautifulsoup:
 
+* [This](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is the official documentation for the library and contains all information on all the member functions and how to use them best.
+
+* [This](https://automatetheboringstuff.com/chapter11/) is another useful resource and can be easily followed even by someone with no previous knowledge about parsing. 
 
 
 Now, we could begin looking into building Search Engines. We will start by looking into a basic search engine built in Python :
