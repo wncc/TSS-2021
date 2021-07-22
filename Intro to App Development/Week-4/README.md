@@ -35,4 +35,4 @@ Here is you last and final (phew!) assignment for this course: [Week-4 Assignmen
 
 We hope that you enjoyed this course!
 
-<center>Made with :heart: by WnCC</center>
+<p align="center">Made with :heart: by WnCC</p>
