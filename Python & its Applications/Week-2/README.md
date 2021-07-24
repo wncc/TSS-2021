@@ -147,3 +147,15 @@ Pre-defined functions from the sklearn library may help you with this task!
 #### Mean Reversion and Momentum
 
 Implementing a Strategy combining [Mean Reversion](https://www.investopedia.com/terms/m/meanreversion.asp) and Momentum into one.
+
+
+
+### Solutions
+
+We've added the Solutions to the [Momentum](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/MomentumSolution.ipynb) Assignment and the [Paired Switching](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-2/PairsSolution.ipynb) Assignment.
+
+You can find out how to Trade in the Stock Market, by using predications of a Naive Bayes' Model from [here](https://blog.quantinsti.com/naive-bayes/).
+
+You can explore how to mix-up Mean Reversion and Momentum to come up with an ensemble strategy [here](https://www.quantconnect.com/tutorials/strategy-library/combining-mean-reversion-and-momentum-in-forex-market).
+
+If you want to explore more strategies in Algorithmic Trading, you can head [here](https://www.quantconnect.com/tutorials/strategy-library).
