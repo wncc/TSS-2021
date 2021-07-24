@@ -91,6 +91,6 @@ After finshing your game should somewhat look like this:
 <img src = 'https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/flappy.gif'>
  </p>
 
-
-
+### Solutions to the assignments
+You can find the solution for the snake assignment [here](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/snake_solutions.py) and for the flappy bird assignment [here](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-3/flappy_solutions.py).
 
