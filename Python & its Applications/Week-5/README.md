@@ -5,6 +5,13 @@ documentation or any other resource.
 
 This week you can choose whatever topics you find interesting from those given below. Many of them are extensions of what you have learnt earlier.
 
+- Scipy for Scientific Computing
+- Web Scraping with Selenium
+- GUI Development using TKinter
+- PyKyra for GameDev
+
+Then you can make any of the mini projects that involves whatever you have learnt this week.
+
 ## Scipy for Scientific Computing
 
 SciPy is a collection of mathematical algorithms and convenience functions built on the NumPy extension of Python. It adds significant power to the interactive Python session by providing the user with high-level commands and classes for manipulating and visualizing data. With SciPy, an interactive Python session becomes a data-processing and system-prototyping environment rivaling systems, such as MATLAB, IDL, Octave, R-Lab, and SciLab.
@@ -22,7 +29,7 @@ You can checkout this YouTube playlist on Introduction to Selenium - [Selenium T
 Optionally, you can also checkout this link for reading tutorials - [Selenium WebDriver Tutorials](https://www.guru99.com/selenium-tutorial.html). This link also covers advanced tutorials on selenium webdrivers, so if you want to explore more of Selenium, you can go through them.
 
 ## GUI Development using TKinter
-Out of all the GUI methods, tkinter is the most commonly used method. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter is the fastest and easiest way to create the GUI applications. Tkinter provides a powerful object-oriented interface.
+Tkinter is one of the most commonly used method for GUI development. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter is the fastest and easiest way to create the GUI applications. Tkinter provides a powerful object-oriented interface.
 
 Creating a GUI application using Tkinter is an easy task. All you need to do is perform the following steps −
 
