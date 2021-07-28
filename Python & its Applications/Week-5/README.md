@@ -8,7 +8,7 @@ This week you can choose whatever topics you find interesting from those given b
 - Scipy for Scientific Computing
 - Web Scraping with Selenium
 - GUI Development using TKinter
-- PyKyra for GameDev
+- Pandas3D for GameDev
 
 Then you can make any of the mini projects that involves whatever you have learnt this week.
 
