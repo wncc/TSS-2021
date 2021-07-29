@@ -52,6 +52,7 @@ You can refer to the [documentation](https://docs.python.org/3/library/tk.html) 
 An API or Application Programming Interface is something through which a website distributes the data avaliable on the web server. We can use these APIs to extract whatever data we want from websites. Retrieving data using APIs can be useful when the data on the web server is dynamic, that is, changing constantly, for example, stock price data. Knowing how to consume an API is one of those magical skills that, once mastered, will crack open a whole new world of possibilities, and consuming APIs using Python is a great way to learn such a skill.
 
 A good analogy for understanding APIs is that when you type in a URL, you request a webpage from the webserver, similarly, through an API you request data from the webserver. This data is returned in JSON format. You did this last week when you extracted data from website using requests and then further used it with Beautiful Soup. Here we will go into more details about the topic.  
+
 You can go to this [link](https://www.dataquest.io/blog/python-api-tutorial/) for a basic tutorial on APIs.  
 
 You can also head over to [this link](https://realpython.com/python-api/) for a more advanced tutorial.
