@@ -5,10 +5,10 @@ documentation or any other resource.
 
 This week you can choose whatever topics you find interesting from those given below. Many of them are extensions of what you have learnt earlier.
 
-- Scipy for Scientific Computing
-- Web Scraping with Selenium
-- GUI Development using TKinter
-- Panda3D for GameDev
+- [Scipy for Scientific Computing](#Scipy-for-Scientific-Computing)
+- [Web Scraping with Selenium](#Web-Scraping-with-Selenium)
+- [GUI Development using TKinter](#GUI-Development-using-TKinter)
+- [Panda3D for GameDev](#Panda3D-for-Game-Development)
 
 Then you can make any of the mini projects that involves whatever you have learnt this week.
 
@@ -18,7 +18,7 @@ SciPy is a collection of mathematical algorithms and convenience functions built
 
 The additional benefit of basing SciPy on Python is that this also makes a powerful programming language available for use in developing sophisticated programs and specialized applications. Scientific applications using SciPy benefit from the development of additional modules in numerous niches of the software landscape by developers across the world. Everything from parallel programming to web and data-base subroutines and classes have been made available to the Python programmer. All of this power is available in addition to the mathematical libraries in SciPy.
 
-You can head on to this [link](https://www.edureka.co/blog/scipy-tutorial/) for an introduction to SciPy. Another reference for a more comprehensive overview is provided [here](https://www.tutorialspoint.com/scipy/scipy_quick_guide.htm). It includes the implementations of the varied subpackages.
+You can head on to this [link](https://www.edureka.co/blog/scipy-tutorial/) for an introduction to SciPy. Another reference for a more comprehensive overview is provided [here](https://www.tutorialspoint.com/scipy/scipy_quick_guide.htm). It includes the implementations of the varied subpackages. Ofcourse to know about any method of the library you can look into its [documentation](https://docs.scipy.org/doc/scipy/reference/).
 
 ## Web Scraping with Selenium
 
@@ -27,6 +27,7 @@ Selenium is a framework which allows us to interact with the HTML elements of a 
 You can checkout this YouTube playlist on Introduction to Selenium - [Selenium Tutorials Playlist](https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ).
 
 Optionally, you can also checkout this link for reading tutorials - [Selenium WebDriver Tutorials](https://www.guru99.com/selenium-tutorial.html). This link also covers advanced tutorials on selenium webdrivers, so if you want to explore more of Selenium, you can go through them.
+The [documentation](https://www.selenium.dev/documentation/en/getting_started/) for this library is also easy to understand and you can try going through it to know more.
 
 ## GUI Development using TKinter
 Tkinter is one of the most commonly used method for GUI development. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter is the fastest and easiest way to create the GUI applications. Tkinter provides a powerful object-oriented interface.
@@ -44,6 +45,8 @@ Creating a GUI application using Tkinter is an easy task. All you need to do is 
 You can head over to this [tutorial](https://www.geeksforgeeks.org/python-tkinter-tutorial/) to learn more about tkinter. You can also refer [this](https://www.javatpoint.com/python-tkinter) for a comprehensive overview of all UI widgets.
 
 For those prefering video tutorials [here](https://www.youtube.com/watch?v=VMP1oQOxfM0) is a good source to refer to.
+
+You can refer to the [documentation](https://docs.python.org/3/library/tk.html) as well to learn anymore about this library.
 
 ## Panda3D for Game Development
 Panda3D is a 3D engine: a library of subroutines for 3D rendering and game development. The library is in C++ with a set of Python bindings. It supports the full range of what modern engines should: it provides convenient support for normal mapping, gloss mapping, HDR, cartoon shading and inking, bloom, and a number of other things. It also allows you to write your own shaders. It is a much more advanced and sophisticated than PyGame. 
