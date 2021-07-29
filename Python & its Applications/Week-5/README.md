@@ -8,6 +8,7 @@ This week you can choose whatever topics you find interesting from those given b
 - [Scipy for Scientific Computing](#Scipy-for-Scientific-Computing)
 - [Web Scraping with Selenium](#Web-Scraping-with-Selenium)
 - [GUI Development using TKinter](#GUI-Development-using-TKinter)
+- [Using APIs in Python](#APIs-in-Python)
 
 Then you can make any of the mini projects that involves whatever you have learnt this week.
 
@@ -46,3 +47,16 @@ You can head over to this [tutorial](https://www.geeksforgeeks.org/python-tkinte
 For those prefering video tutorials [here](https://www.youtube.com/watch?v=VMP1oQOxfM0) is a good source to refer to.
 
 You can refer to the [documentation](https://docs.python.org/3/library/tk.html) as well to learn anymore about this library.
+
+## APIs in Python
+An API or Application Programming Interface is something through which a website distributes the data avaliable on the web server. We can use these APIs to extract whatever data we want from websites. Retrieving data using APIs can be useful when the data on the web server is dynamic, that is, changing constantly, for example, stock price data. Knowing how to consume an API is one of those magical skills that, once mastered, will crack open a whole new world of possibilities, and consuming APIs using Python is a great way to learn such a skill.
+
+A good analogy for understanding APIs is that when you type in a URL, you request a webpage from the webserver, similarly, through an API you request data from the webserver. This data is returned in JSON format. You did this last week when you extracted data from website using requests and then further used it with Beautiful Soup. Here we will go into more details about the topic.  
+You can go to this [link](https://www.dataquest.io/blog/python-api-tutorial/) for a basic tutorial on APIs.  
+
+You can head over to [this link](https://realpython.com/python-api/) for a more detailed tutorial.The advanced concepts covered here such as authentication are optional. 
+
+As you saw APIs can grants access to specific data and methods that other applications can access – and sometimes edit – via standard HTTP protocols, just like a website. **REpresentational State Transfer (REST)**, is one of the most popular architectural style of APIs for web services. It consists of a set of guidelines designed to simplify client / server communication. REST APIs make data access much more straightforward and logical.
+
+You can visit [this link](https://realpython.com/api-integration-in-python/) to learn more about using REST APIs. This even covers how to buid your own APIs which if you want you can skip.
+
