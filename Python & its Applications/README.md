@@ -14,7 +14,7 @@ This course will help you dive deeper into some of the concepts & libraries that
 - [Week 2: Applications of Python in Data Analysis fields, will cover Numpy, Matplotlib, Seaborn and Pandas libraries](https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-2)                                    
 - [Week-3: Application of Python in Game Development, will cover PyGame library](https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-3)                                                            
 - [Week-4: Use Python to make a Search engine, covering basic Web Scraping](https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-4)                                                     
-- [Week-5: Self study various libraries](https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-5)
+- [Week-5: Self study more libraries of Python](https://github.com/wncc/TSS-2021/tree/main/Python%20%26%20its%20Applications/Week-5)
 
 _Material (Tutorials, References & Documentation) to be released weekly, along with weekly tasks for students to implement all that they have learned through the week's material_
 
