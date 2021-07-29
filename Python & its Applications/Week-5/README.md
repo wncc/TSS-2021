@@ -54,7 +54,7 @@ An API or Application Programming Interface is something through which a website
 A good analogy for understanding APIs is that when you type in a URL, you request a webpage from the webserver, similarly, through an API you request data from the webserver. This data is returned in JSON format. You did this last week when you extracted data from website using requests and then further used it with Beautiful Soup. Here we will go into more details about the topic.  
 You can go to this [link](https://www.dataquest.io/blog/python-api-tutorial/) for a basic tutorial on APIs.  
 
-You can head over to [this link](https://realpython.com/python-api/) for a more detailed tutorial.The advanced concepts covered here such as authentication are optional. 
+You can also head over to [this link](https://realpython.com/python-api/) for a more advanced tutorial.
 
 As you saw APIs can grants access to specific data and methods that other applications can access – and sometimes edit – via standard HTTP protocols, just like a website. **REpresentational State Transfer (REST)**, is one of the most popular architectural style of APIs for web services. It consists of a set of guidelines designed to simplify client / server communication. REST APIs make data access much more straightforward and logical.
 
