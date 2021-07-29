@@ -8,7 +8,6 @@ This week you can choose whatever topics you find interesting from those given b
 - [Scipy for Scientific Computing](#Scipy-for-Scientific-Computing)
 - [Web Scraping with Selenium](#Web-Scraping-with-Selenium)
 - [GUI Development using TKinter](#GUI-Development-using-TKinter)
-- [Panda3D for GameDev](#Panda3D-for-Game-Development)
 
 Then you can make any of the mini projects that involves whatever you have learnt this week.
 
@@ -47,8 +46,3 @@ You can head over to this [tutorial](https://www.geeksforgeeks.org/python-tkinte
 For those prefering video tutorials [here](https://www.youtube.com/watch?v=VMP1oQOxfM0) is a good source to refer to.
 
 You can refer to the [documentation](https://docs.python.org/3/library/tk.html) as well to learn anymore about this library.
-
-## Panda3D for Game Development
-Panda3D is a 3D engine: a library of subroutines for 3D rendering and game development. The library is in C++ with a set of Python bindings. It supports the full range of what modern engines should: it provides convenient support for normal mapping, gloss mapping, HDR, cartoon shading and inking, bloom, and a number of other things. It also allows you to write your own shaders. It is a much more advanced and sophisticated than PyGame. 
-
-You can install Panda3D from [here](https://www.panda3d.org/download/sdk-1-10-9/). You can then head over to [this tutorial](https://arsthaumaturgis.github.io/Panda3DTutorial.io/). It covers the basics of making games in Panda3D. If you'd like to learn through videio tutorial you can go through [this](https://www.youtube.com/watch?v=vuWMcbF48T0&list=PL1P11yPQAo7oEAGuPcqMnn9ZWHLWP3-Lc&index=2) howver it covers some more advanced concepts as well. To learn more you can look into the official [documentation](https://docs.panda3d.org/1.10/python/index).
