@@ -61,3 +61,22 @@ As you saw APIs can grants access to specific data and methods that other applic
 
 You can visit [this link](https://realpython.com/api-integration-in-python/) to learn more about using REST APIs. This even covers how to buid your own APIs which if you want you can skip.
 
+That may have seemed like a ton!
+
+There's a lot more you could do in Python beyond this as well, and you can choose to apply any/all of these for a Project.
+
+## Project
+
+You could use all the tools you learnt about in the above sections and/or learn even more, extend/combine what you've learnt in previous weeks to build a Project.
+
+For example. You could integrate TF-IDF/BM25 with PageRank and Web Crawling to build a full-fledged search engine, You could build complex games like Hangman, You could build a Web UI, which scrapes any website for real-time stock prices and build an Automated Stock Trader using that!
+
+You can do whatever you want, if you are short on ideas, ways to start, we've compiled a small list for you: (Apart from the ones mentioned above!)
+
+* File Explorer (using Tkinter and File Handling)
+* Plagiarism Checker (using Applications learnt in Week 4)
+* Music Player (using PyGame)
+* Instagram Photo Downloader (using Web Scraping and other Web-Dev tools)
+* Another variant of SAFE (using Tkinter and if you want to explore some Cryptography)
+* Content Aggregator (Eg. A Script which could download all lectures-slides of a particular course from Moodle/NPTEL. Involves Web Scraping)
+* A virtual version of your favourite Board Game (using PyGame, Tkinter)
