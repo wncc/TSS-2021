@@ -11,10 +11,21 @@ Through this course, you will be introduced to some of the core ideas behind com
 **Course Duration:**  4 weeks  
 **Time Commitment:** 8-10 hrs per week (1-2 hrs more for optional material)
 ### Schedule:   
-Week 1: Overview & Motivation for MLOps, ML Workflow Lifecycle, Real-world MLOps Case-Studies  
+Week 1: Overview & Motivation for MLOps, ML Workflow Lifecycle, Real-world MLOps Case-Studies
+- [Notes & Resources](https://www.notion.so/Week-1-A-Gentle-Introduction-to-MLOps-2a250ff4e70348179aa9bc3f92529827)
+- [Assignment](https://www.notion.so/Assignment-1-b958deccfab6495290922385762e3ddf) 
+
 Week 2: Dataset & Model Management using Data Version Control (DVC)  
+- [Notes & Resources](https://www.notion.so/Week-2-Data-Model-Management-with-DVC-1bdbe182a0d344cca193c9cdb7e18a64)
+- [Assignment](https://www.notion.so/Assignment-2-9ade7e67b2dd46f6b5ba91772ad149e2)  
+
 Week 3: ML Experimentation using PyCaret  
+- [Notes & Resources](https://www.notion.so/Week-3-Experimentation-with-ML-Pipelines-using-PyCaret-49a475b455a2473ca65c2f3c0db4cc5e)
+- [Assignment](https://www.notion.so/Assignment-3-f61f4969b7af43eabde60111060fa65f)  
+
 Week 4: Deployment & Monitoring using PyCaret & MLFlow   
+- [Notes & Resources](https://bold-allspice-bc7.notion.site/Week-4-Model-Tracking-with-MLFlow-Deployment-with-FastAPI-66bb5828c1104f21b8fe4cc3f2544afe)
+- [Assignment](https://bold-allspice-bc7.notion.site/Assignment-4-4427a376daf844898c6d216b934d4003)  
 
 _Material (Tutorials, References & Documentation) to be released weekly, along with weekly tasks for students to implement all that they have learned through the week's material_
 
@@ -28,10 +39,7 @@ Each of the 4 weeks will have certain assignments which build on top of the prev
 - [Divyanshi Kamra](https://www.facebook.com/divyanshi.kamra.7)
 - [Shruti Singh](https://www.facebook.com/shruti.s.50364592)
 
-
-Join this [Telegram Group](https://t.me/joinchat/uX-Ix8qC96VjNzE1) for discussions and doubts regarding this course.  
-Also join the WnCC [Telegram](https://t.me/joinchat/WHfOTR41RrD9DLL6) channel for regular updates of our events.  
-
+<hr />
 <p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
 
 
